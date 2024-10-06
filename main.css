@@ -1,0 +1,129 @@
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+    background-color: #4B70F5;
+    align-items: center;
+    
+}
+
+.head{
+   
+    padding: 17px 35px;
+    word-spacing: 50px;
+    border: none;
+    font-size: x-large;
+ 
+    
+   
+   
+}
+
+video{
+    width: 100%;
+    height: 100%;
+
+}
+
+.contenidoFonImg{
+    position: relative;
+
+}
+
+
+.contenidoFonImg::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.textencabe{
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.textencabe h2{
+ color: white;
+ font-size: 4rem;
+}
+
+.piedepagi{
+    width: 100%;
+    background-color: #0029be;
+
+}
+
+.piedepagi .grup-1{
+     width: 100%;
+     max-width: 1200px;
+     margin: auto;
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     grid-gap: 50px;
+     padding: 45px 0px;
+}
+
+.piedepagi .grup-1 .box figure{
+ width: 100%;
+ height: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.piedepagi .grup-1 .box figure img{
+    width: 250px;
+}
+
+.piedepagi .grup-1 .box {
+    color: white;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.piedepagi .grup-1 .redsocial a{
+   display: inline-block;
+   width: 45px;
+   height: 45px;
+   line-height: 45px;
+   color: black;
+   margin-right: 10px;
+}
+
+.hol{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.boton{
+display: flex;
+justify-content: center;
+   
+}
+
+img{
+  max-width: 100%;
+}
+
+.platillos{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.section{
+    display: flex;
+    justify-items: normal;
+    padding: 100px 50px;
+}
